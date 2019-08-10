@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta name="description" content="This page gives the contact information for Rohini Tomar">
+    <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="img/favicon2.png" />
     <title>Contact Rohini Tomar</title>
-    <linl rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
 
@@ -14,7 +14,7 @@
       <div class="content">
 
       <header class="page-header">
-        <h1 class="page-header_item" alt="logo">Rohini Tomar</h1>
+        <h1 class="page-header_item">Rohini Tomar</h1>
         <nav  class="page-header_item"  >
 
           <ul role="menubar" class="navigation-list">
@@ -39,7 +39,7 @@
 
         </nav>
       </header>
-
+      <div class="wrapper">
       <div>
        <h2> My Contact Information </h2>
       </div>
@@ -47,23 +47,26 @@
       <div>
          Tel <a href="tel:+6506574322"> +6506574322</a><br>
              <a href="mailto:rohini.tomar@gmail.com"> rohini.tomar@gmail.com </a><br><br>
-             <a href="mailto:rohini.tomar@gmail.com"><button type="Submit"> Contact Me</button> </a>
+             <a href="mailto:rohini.tomar@gmail.com" class="button" > Contact Me </a>
       </div>
 
       <div>
 
-       <h2>Contact Form<h2>
-        <Form action="" method="post" id="contact-form">
-          <label class="standard label" for="my input">Email:</label>
-          <input type="email" id="my input" required>
-          <label class="standard label" for="my phone">Telephone:</label>
-          <input type="tel" id="my phone">
-          <label class="standard table" for="my message">Message:</label>
-          <textarea required maxlength="100" id="my message"></textarea>
+       <h2>Contact Form</h2>
+        <Form action="form" method="post" id="contact-form">
+          <label class="standard label" for="my-input">Email:</label>
+          <input type="email" id="my-input" required>
+          <label class="standard label" for="my-phone">Telephone:</label>
+          <input type="tel" id="my-phone">
+          <label class="standard table" for="my-message">Message:</label>
+          <textarea required maxlength="100" id="my-message"></textarea>
           <input type="submit" value="send message">
         </form>
       </div>
     </div>
+  </div>
+
+
 
     <footer class="page-footer">
        <p><b>Find Me On</b></p>
@@ -84,6 +87,8 @@
         </div>
 
     </footer>
+
+
 
         <script src="js/tota11y.min.js"></script>
     </body>

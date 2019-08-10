@@ -19,8 +19,13 @@ html,  body {
         }
   .content{
         min-height: 100%;
-        flex:1,0,auto;
-          }
+        flex: 1 0 auto;
+        }
+
+    .wrapper{
+      margin-left:20px;
+      margin-right:20px;
+    }
           .page-footer{
             clear:both;
             Display:flex;
@@ -35,7 +40,7 @@ html,  body {
 
 
   h1 {
-      font-size: 30 px;
+      font-size: 30px;
       font-weight: 700;
       color:red ;
      }
@@ -127,7 +132,9 @@ html,  body {
                grid-template-columns: 1fr 1fr 1fr;
                grid-gap: 20px;
                background-color: lightgray;
+               text-align: center;
                 }
+
          .grid_item:last-child{
                                background-color: #9a8c94;
                               }
@@ -166,13 +173,13 @@ html,  body {
 
    @keyframes color-change {
                              from {
-                                  fill: #edc655;
+                                  fill:#edc655;
                                   }
                              50% {
-                                  fill: #fcffad;
+                                  fill:#fcffad;
                                   }
                              100% {
-                                   fill: #f76414;
+                                   fill:#f76414;
                              }
 
                            }
@@ -180,7 +187,7 @@ html,  body {
          animation: 4s color-change infinite alternate linear;
          }
 
-         @keyframes cloud-move {
+         @keyframes umbrella-move {
                                from {
                                     transform: translate(0, 50px);
                                     }
