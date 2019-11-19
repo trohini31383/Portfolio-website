@@ -42,7 +42,7 @@ body {
   flex-direction: column;
   text-align: center;
   margin-bottom: 20px;
-  background-color: #e59dea;
+  background-color: lightgray;
   margin-top: 40px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -ms-flex-negative: 0;
@@ -151,7 +151,7 @@ button:focus,
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   background-color: lightgray;
   text-align: center;
