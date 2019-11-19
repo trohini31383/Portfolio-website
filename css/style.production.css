@@ -158,7 +158,6 @@ button:focus,
 }
 
 .grid_item:last-child {
-  background-color: inherit;
 }
 
 h1 {
