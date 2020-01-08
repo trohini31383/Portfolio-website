@@ -157,7 +157,7 @@ html,  body {
                }
       @media all and (min-width: 500px) and (max-width: 750px){
            .grid {
-                  grid-template-columns: 1fr 1fr;
+                  grid-template-columns: 1fr 1fr 1fr;
                 }
               }
       @media all and (max-width: 750px) {
