@@ -105,6 +105,10 @@ button,
   display: block;
   margin: auto;
 }
+
+.btn {
+  text-align: center;
+}
 button:hover,
 button:focus,
 .button:hover,
