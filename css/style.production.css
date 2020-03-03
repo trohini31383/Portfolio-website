@@ -102,6 +102,7 @@ button,
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
+  align-items: center;
 }
 button:hover,
 button:focus,
