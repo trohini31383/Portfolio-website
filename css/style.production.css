@@ -105,23 +105,7 @@ button,
   
 }
 
-.btn {
-  border: none;
-  font-family: inherit;
-  background-color: white;
-  color: #000000;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-  text-align: center;
-}
+
 button:hover,
 button:focus,
 .button:hover,
