@@ -17,7 +17,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #b4dce4;
+  background-color: white;
   font-family: "lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -33,6 +33,17 @@ body {
   text-align: center; 
   max-width: 700px;
   margin-left: 25px;
+}
+.skills {
+  text-align: left;
+  max-width: 500px;
+
+}
+.contact {
+  text-align: left;
+  margin-left: 100px;
+  
+ max-width: 700px;
 }
 
 .wrapper {
@@ -90,7 +101,7 @@ button,
 .button {
   border: none;
   font-family: inherit;
-  background-color: white;
+  background-color: whitesmoke;
   color: #000000;
   text-decoration: none;
   padding: 10px;
@@ -116,7 +127,7 @@ button:focus,
 
 .profile_portrait {
   float: left;
-  width: 250px;
+  width: 180px;
   margin-right: 40px;
   border-radius: 50%;
 }
